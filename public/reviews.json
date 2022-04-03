@@ -1,0 +1,65 @@
+[
+  {
+    "id": "6249f1b511324bdfbd71b707",
+    "picture": "https://www.aconsciousrethink.com/wp-content/uploads/2019/05/reserved-person-line.jpg",
+    "name": "Lottie Preston",
+    "rating": "4.9",
+    "review": "Nice laptop for school! Small and powerful."
+  },
+  {
+    "id": "6249f1b5f7696872c074d539",
+    "picture": "https://api.time.com/wp-content/uploads/2019/12/time-person-of-the-year-joe-biden-portrait.jpg?quality=85&crop=0px%2C42px%2C2057px%2C1373px&resize=407%2C271&strip",
+    "name": "Terra Mccullough",
+    "rating": "5",
+    "review": "Small size and powerfull. Resolution is a bit of a down. Odd touchpad. Sound could be better"
+  },
+  {
+    "id": "6249f1b58de003acbf5cf05d",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgIUF7SE6CROioPfFm3jxwN5cPMxD_MobRdw&usqp=CAU",
+    "name": "Cervantes Baldwin",
+    "rating": "4.7",
+    "review": "This Dell XPS 13 9310 is a nice little laptop. Perfect size. Nice touch screen. Beautiful colors."
+  },
+  {
+    "id": "6249f1b55d2fde8079485886",
+    "picture": "https://www.edarabia.com/wp-content/uploads/2015/11/7-ways-to-become-the-person-everyone-respects.jpg",
+    "name": "Tyson Nguyen",
+    "rating": "4.8",
+    "review": "Overall, I love the laptop."
+  },
+  {
+    "id": "6249f1b58f7da76630422a03",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWObMcppELNbSLg1E6WhIp8v-TPSkV6YZ7TA&usqp=CAU",
+    "name": "Wise Reed",
+    "rating": "4.9",
+    "review": "Touch is great, screen colors and image quality is great, reflections are not very noticable, keyboard is great, performance seems ok but that could just be Windows acting up."
+  },
+  {
+    "id": "6249f1b51b4d1cfdf1a50db1",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfOWBZ1J9nbKRuEXCw2ROwbRXqZkx3yyaow&usqp=CAU",
+    "name": "Owens Pennington",
+    "rating": "4.6",
+    "review": "This laptop is not up to snuff. The microphone is located in an awful place. I have never been able to be heard on this laptop with a headset. "
+  },
+  {
+    "id": "6249f1b5d8486376122e0488",
+    "picture": "https://www.newidea.com.au/media/104672/untitled-design-16.jpg?width=720&center=0.0,0.0",
+    "name": "Jody York",
+    "rating": "5",
+    "review": "I have the 13inch laptop, and I'm loving it. Quick startup and processing. My only gripe is the touchscreen when typing on the numbers at the top of the keyboard."
+  },
+  {
+    "id": "6249f1b512bdb0d7c9f5335b",
+    "picture": "https://image.shutterstock.com/image-photo/close-head-shot-handsome-commercial-260nw-1584061174.jpg",
+    "name": "Reed Herrera",
+    "rating": "4.75",
+    "review": "Well, laptop is amazing I like it, and Amazon Customer Service was also concerned."
+  },
+  {
+    "id": "6249f1b5e38b2c5556471def",
+    "picture": "https://image.shutterstock.com/image-photo/african-american-businesswoman-using-laptop-260nw-1489163804.jpg",
+    "name": "Rosemarie Raymond",
+    "rating": "4.8",
+    "review": "It definitely feels like a premium device. Very happy with my purchase, hopefully, it lasts because it was not cheap."
+  }
+]
