@@ -1,19 +1,21 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
-// import Reviews from '../Reviews/Reviews';
-
+import ReviewPage from '../ReviewPage/ReviewPage';
 
 const Reviews = () => {
-    const [reviews] = useReviews();
+    const [reviews, setReviews] = useReviews();
     return (
         <div>
-            <h2>Reviews</h2>
-            {
-                reviews.map(review => <p key={review.id}>{review.id}</p>)
-            }
+            <h1>Reviews</h1>
+            <div className=''>
+                <h3 className="text-3xl font-semibold my-10">Customer Reviews -{reviews.length}</h3>
+
+                {
+                    reviews.map(review => <ReviewPage reviews={review}></ReviewPage>)
+                }
+            </div>
         </div>
     );
 };
-
 
 export default Reviews;
