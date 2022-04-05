@@ -6,9 +6,9 @@ const RevBarChart = () => {
     const [data] = useChartData();
     return (
         <div>
-            <h4 className='text-xl text-center font-semibold my-5'>Investment vs Revenue</h4>
+            <h4 className='text-2xl text-center font-semibold my-5 text-sky-600'>Investment vs Revenue</h4>
             <BarChart
-                width={500}
+                width={630}
                 height={300}
                 data={data}
                 margin={{

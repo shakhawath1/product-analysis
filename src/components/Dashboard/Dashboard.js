@@ -6,7 +6,7 @@ import SellLineChart from '../../ReChart/SellLineChart/SellLineChart';
 
 const Dashboard = () => {
     return (
-        <div className='grid grid-cols-2 gap-20 mt-10'>
+        <div className='grid grid-cols-2 gap-20 my-20'>
             <SellLineChart></SellLineChart>
             <RevAreaChart></RevAreaChart>
             <RevBarChart></RevBarChart>

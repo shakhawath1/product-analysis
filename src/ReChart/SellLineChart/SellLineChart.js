@@ -8,8 +8,8 @@ const SellLineChart = () => {
 
     return (
         <div>
-            <h4 className='text-xl text-center font-semibold my-5'>MONTH WISE SELL</h4>
-            <LineChart width={630} height={250} data={data}
+            <h4 className='text-2xl text-center font-semibold my-5 text-sky-600'>Month Wise Sell</h4>
+            <LineChart width={630} height={300} data={data}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />

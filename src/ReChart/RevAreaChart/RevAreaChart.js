@@ -6,8 +6,8 @@ const RevAreaChart = () => {
     const [data] = useChartData();
     return (
         <div>
-            <h4 className='text-xl text-center font-semibold my-5'>Investment vs Revenue</h4>
-            <AreaChart width={630} height={250} data={data}
+            <h4 className='text-2xl text-center font-semibold my-5 text-sky-600'>Investment vs Revenue</h4>
+            <AreaChart width={630} height={300} data={data}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>
                     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -23,8 +23,8 @@ const RevAreaChart = () => {
                 <YAxis />
                 <CartesianGrid strokeDasharray="3 3" />
                 <Tooltip />
-                <Area type="monotone" dataKey="revenue" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
-                <Area type="monotone" dataKey="investment" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
+                <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
+                <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
             </AreaChart>
         </div>
     );

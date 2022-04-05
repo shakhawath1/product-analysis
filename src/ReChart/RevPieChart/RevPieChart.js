@@ -1,20 +1,19 @@
 import React from 'react';
-import { Pie, PieChart } from 'recharts';
+import { Pie, PieChart, Tooltip } from 'recharts';
 import useChartData from '../../hooks/useChartData';
 
 const RevPieChart = () => {
     const [data] = useChartData();
-    const data1 = data.revenue;
 
     return (
-        <div>
-            <h4 className='text-xl text-center font-semibold my-5'>Investment vs Revenue</h4>
-            {/* <ResponsiveContainer width="100%" height="100%"> */}
-            <PieChart width={400} height={400}>
-                <Pie data={data1} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-                <Pie data={data1} dataKey="investment" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+        <div className='m-auto'>
+            <h4 className='text-2xl text-center font-semibold my-5 text-sky-600'>Investment vs Revenue</h4>
+            <PieChart width={400} height={350}>
+                <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={100} fill="#8884d8" />
+                <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={110} outerRadius={130} fill="#82ca9d" label />
+                <Tooltip />
             </PieChart>
-            {/* </ResponsiveContainer> */}
+
 
         </div>
     );
