@@ -2,10 +2,10 @@
 
 
 
-## [XPS Laptop Review live website link.](https://spiffy-raindrop-efcd99.netlify.app/)
+## [XPS Laptop Review live website link.](https://incandescent-kashata-38b6e2.netlify.app/)
 
 
-[https://spiffy-raindrop-efcd99.netlify.app/](https://spiffy-raindrop-efcd99.netlify.app/)
+[https://incandescent-kashata-38b6e2.netlify.app/](https://incandescent-kashata-38b6e2.netlify.app/)
 
 
 ### About this site:
