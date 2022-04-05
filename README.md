@@ -2,9 +2,9 @@
 
 
 
-## XPS Laptop Review live website link.
+## [XPS Laptop Review live website link.](https://spiffy-raindrop-efcd99.netlify.app/)
 
-[XPS Laptop Review](https://spiffy-raindrop-efcd99.netlify.app/).
+
 [https://spiffy-raindrop-efcd99.netlify.app/](https://spiffy-raindrop-efcd99.netlify.app/)
 
 
