@@ -5,10 +5,13 @@ import useReviews from '../../hooks/useReviews'
 
 
 const Home = () => {
+
+    // data load from hook
     const [reviews] = useReviews();
     const homeReviews = reviews.slice(0, 3)
-
+    // use navigate to button
     const navigate = useNavigate();
+
     return (
         <div className="mb-40">
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-20 mx-10'>
@@ -18,7 +21,7 @@ const Home = () => {
                     <p>XPS laptops are precision crafted with premium materials, featuring stunning displays and the performance you demand to express your creative self and your big ideas.</p>
                     <div>
                         <button className='font-semibolt mt-10 px-5 mr-5 text-lg text-white bg-blue-500 border-2 rounded hover:bg-blue-700 ease-in duration-300'>Shop XPS</button>
-                        <button className='font-semibolt mt-10 px-5 text-lg text-blue-500 bg-white border-2 rounded hover:bg-blue-500 hover:text-white ease-in duration-300'>Explore XPS</button>
+                        <button onClick={() => navigate('/About')} className='font-semibolt mt-10 px-5 text-lg text-blue-500 bg-white border-2 rounded hover:bg-blue-500 hover:text-white ease-in duration-300'>About XPS</button>
                     </div>
                 </div>
                 <div>

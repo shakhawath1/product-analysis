@@ -14,3 +14,4 @@
 * Review from customers.
 * Monthly sell cart for products.
 * Investment and revenue charts for the products.
+* About XPS laptop.
