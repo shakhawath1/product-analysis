@@ -1,6 +1,6 @@
 import React from 'react';
 import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
-import useChartData from '../../hooks/useChartData';
+import useChartData from '../../../hooks/useChartData';
 
 const RevAreaChart = () => {
     const [data] = useChartData();

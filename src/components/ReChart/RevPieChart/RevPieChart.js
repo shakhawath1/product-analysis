@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pie, PieChart, Tooltip } from 'recharts';
-import useChartData from '../../hooks/useChartData';
+import useChartData from '../../../hooks/useChartData';
 
 const RevPieChart = () => {
     const [data] = useChartData();

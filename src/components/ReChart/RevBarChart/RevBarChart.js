@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
-import useChartData from '../../hooks/useChartData';
+import useChartData from '../../../hooks/useChartData';
 
 const RevBarChart = () => {
     const [data] = useChartData();

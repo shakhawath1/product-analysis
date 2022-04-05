@@ -5,7 +5,7 @@ import useReviews from '../../hooks/useReviews'
 
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     const homeReviews = reviews.slice(0, 3)
 
     const navigate = useNavigate();
@@ -21,17 +21,18 @@ const Home = () => {
                         <button className='font-semibolt mt-10 px-5 text-lg text-blue-500 bg-white border-2 rounded hover:bg-blue-500 hover:text-white ease-in duration-300'>Explore XPS</button>
                     </div>
                 </div>
-                <div className=''>
+                <div>
                     <img src="xps-laptops.webp" className="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle|" alt="" />
                 </div>
             </div>
             {/* Customer reviews */}
-            <div className=''>
+            <div>
                 <h3 className="text-3xl font-semibold my-10">Customer Reviews -{homeReviews.length}</h3>
-
-                {
-                    homeReviews.map(review => <Reviews reviews={review}></Reviews>)
-                }
+                <div className="grid grid-cols-3 gap-10 m-10">
+                    {
+                        homeReviews.map(review => <Reviews reviews={review}></Reviews>)
+                    }
+                </div>
             </div>
             <button onClick={() => navigate('/Reviews')} className='font-semibolt mt-10 px-5 mr-5 text-lg text-white bg-blue-500 border-2 rounded hover:bg-blue-700 ease-in duration-300'>See All Reviews</button>
         </div>

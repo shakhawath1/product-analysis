@@ -1,8 +1,8 @@
 import React from 'react';
-import RevAreaChart from '../../ReChart/RevAreaChart/RevAreaChart';
-import RevBarChart from '../../ReChart/RevBarChart/RevBarChart';
-import RevPieChart from '../../ReChart/RevPieChart/RevPieChart';
-import SellLineChart from '../../ReChart/SellLineChart/SellLineChart';
+import RevAreaChart from '../ReChart/RevAreaChart/RevAreaChart';
+import RevBarChart from '../ReChart/RevBarChart/RevBarChart';
+import RevPieChart from '../ReChart/RevPieChart/RevPieChart';
+import SellLineChart from '../ReChart/SellLineChart/SellLineChart';
 
 const Dashboard = () => {
     return (
