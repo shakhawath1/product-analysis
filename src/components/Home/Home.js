@@ -33,7 +33,7 @@ const Home = () => {
                 <h3 className="text-3xl font-semibold my-10">Customer Reviews -{homeReviews.length}</h3>
                 <div className="grid grid-cols-3 gap-10 m-10">
                     {
-                        homeReviews.map(review => <Reviews reviews={review}></Reviews>)
+                        homeReviews.map(review => <Reviews key={review.id} reviews={review}></Reviews>)
                     }
                 </div>
             </div>
