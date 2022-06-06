@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div className="mb-40">
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-20 mx-10'>
-                <div className='text-left m-auto ml-10'>
+                <div className='text-left m-auto ml-10 order-last lg:order-first'>
                     <h2 className='text-5xl font-semibold text-blue-700'>XPS Laptops</h2>
                     <h5 className='text-lg font-semibold my-5'>For Creators & Creativity | Starting at $849.99</h5>
                     <p>XPS laptops are precision crafted with premium materials, featuring stunning displays and the performance you demand to express your creative self and your big ideas.</p>
